@@ -1,8 +1,6 @@
 # Huffman Coding
 
-```
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0ca13a6a-6e5c-4b5a-b041-35f36aacc751/deploy-status)](https://app.netlify.com/sites/flood-fill-visualizer/deploys)
-```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d79fd686-aa16-4de7-999e-c6f33ed89f21/deploy-status)](https://app.netlify.com/sites/huffman-coding/deploys)
 
 ### Description
 
