@@ -1,5 +1,9 @@
 # Huffman Coding
 
+```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0ca13a6a-6e5c-4b5a-b041-35f36aacc751/deploy-status)](https://app.netlify.com/sites/flood-fill-visualizer/deploys)
+```
+
 ### Description
 
 This project is intended to demonstrate a JavaScript implementation of Huffman Algorithm for text encoding.
@@ -10,6 +14,10 @@ This project is intended to demonstrate a JavaScript implementation of Huffman A
 >
 
 Source: [Huffman Coding](https://en.wikipedia.org/wiki/Huffman_coding)
+
+### Live Demo
+
+https://huffman-coding.netlify.app/
 
 ### Tools
 
