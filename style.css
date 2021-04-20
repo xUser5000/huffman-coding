@@ -1,0 +1,64 @@
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+form {
+  padding: 0 100px;
+  text-align: center;
+}
+
+#input, #output {
+  resize: none;
+}
+
+#encode-button {
+  margin: 20px;
+}
+
+#container {
+  margin-top: 50px;
+}
+
+#table-wrapper {
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+  display: none;
+}
+
+table {
+  display: inline-block;
+}
+
+table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* SVG */
+
+svg {
+  width: 100%;
+  border: 2px solid cornflowerblue;
+  border-radius: 20px;
+}
+
+.node rect,
+.node circle,
+.node ellipse {
+  stroke: #333;
+  fill: #fff;
+  stroke-width: 1px;
+}
+
+.edgePath path {
+  stroke: #333;
+  fill: #333;
+  stroke-width: 1.5px;
+}
