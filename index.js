@@ -105,8 +105,8 @@ function displayTable (codeTable = {}, frequencyTable = {}) {
 
     /* Sort the rows according to the characters */
     rows.sort((a, b) => {
-        if (a.char < b.char) return -1;
-        if (a.char > b.char) return 1;
+        if (a.length < b.length) return -1;
+        if (a.length > b.length) return 1;
         return 0;
     });
 
