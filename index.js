@@ -18,13 +18,13 @@ inputView.addEventListener("keyup", event => {
 encodeButton.addEventListener("click", () => {
     let inputString = inputView.value;
 
+    /* Filter white spaces and new lines */
+    inputString = filterSpaces(inputString);
+    
     if (inputString === "") {
         errorDialog.show();
         return;
     }
-
-    /* Filter white spaces and new lines */
-    inputString = filterSpaces(inputString);
     
     /* Huffman Algorithm */
     let frequencyTable = buildFrequencyTable(inputString);
